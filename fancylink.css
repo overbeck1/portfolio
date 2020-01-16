@@ -1,0 +1,47 @@
+.fancylink {
+  padding: 1rem;
+  background-color: lawngreen;
+  border-radius: 10px;
+  margin-inline-start: 50px;
+}
+
+.fancylink2 {
+  padding: 4rem;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-stretch: expanded;
+  font-style: oblique background-color rgb(116, 28, 28);
+}
+.fancylink3 {
+  background-color: red;
+  border-radius: 1rem;
+  font-size: 4rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.fancylink4 {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  width: 10rem;
+  height: 3rem;
+  border: black 2px solid;
+  border-radius: 3rem;
+  background-color: cadetblue;
+  padding: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+div {
+  margin-top: 2rem;
+}
+
+.fancylink4:hover {
+  background-color: chartreuse;
+}
+
+.fancylink4:visited {
+  background-color: chartreuse;
+}

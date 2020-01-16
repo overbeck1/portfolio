@@ -1,0 +1,19 @@
+.imagem {
+  max-width: 100%;
+}
+@media (min-width: 600px) {
+  .flex-center {
+    justify-content: center;
+    display: flex;
+  }
+  .article-container {
+    max-width: 400px;
+  }
+  .imagem {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .article-container {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,37 @@
+.flex-demo {
+  background-color: blue;
+  height: 200px;
+
+  display: flex;
+  flex-direction: row;
+  color: whitesmoke;
+
+  background-color: tomato;
+  height: 200px;
+  display: flex;
+}
+.col-1 {
+  background-color: brown;
+  flex: 1;
+}
+
+.col-2 {
+  background-color: yellow;
+  flex: 1;
+}
+.col-3 {
+  background-color: chocolate;
+  flex: 1;
+}
+.col-4 {
+  background-color: black;
+  flex: 1;
+}
+.col-5 {
+  background-color: pink;
+  flex: 1;
+}
+.col-6 {
+  background-color: blue;
+  flex: 1;
+}
