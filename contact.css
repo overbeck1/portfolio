@@ -1,0 +1,115 @@
+/* Position the navbar container inside the image */
+.container {
+  width: auto;
+  background-color: gray;
+}
+
+body {
+  margin: 0%;
+}
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: gray;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 22px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: gray;
+}
+
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: gray;
+}
+
+/* Style the container/contact section */
+.container {
+  background-color: gray;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+}
